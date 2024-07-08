@@ -23,8 +23,6 @@ header{
   width: 360px;
   min-height: 379px;
   padding: 30px 20px 29px 20px;
-  gap: 0px;
-  opacity: 0px;
   background: #0B2434;
 }
 @media screen and (max-width:400px){
@@ -42,9 +40,7 @@ header{
   max-width:100%;
   min-height: 320px;
   padding: 33.28px 34.56px 33.92px 34.56px;
-  gap: 0px;
   border-radius: 10px ;
-  opacity: 0px;
   background: #F5F5F5;
   display:flex;
   justify-content:center;
@@ -55,8 +51,6 @@ header{
 .ts .die{
   width: 35.84px;
   height: 35.84px;
-  gap: 0px;
-  opacity: 0px;
   background: #FFFFFF;
   box-shadow: 0px 2px 2px 0px #00000026;
   font-family: Karla;
@@ -89,9 +83,7 @@ header{
 .ts .roll-btn{
   width: 92.16px;
   height: 35.84px;
-  gap: 0px;
   border-radius: 3.81px ;
-  opacity: 0px;
   background: #5035FF;
   font-family: Karla;
   font-size: 16.38px;
