@@ -1,0 +1,126 @@
+body {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+header{
+  position: fixed;
+  left:0;
+}
+.tenzies-styles{
+  min-height: 100vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.ts .container-main{
+  width: 360px;
+  min-height: 379px;
+  padding: 30px 20px 29px 20px;
+  gap: 0px;
+  opacity: 0px;
+  background: #0B2434;
+}
+@media screen and (max-width:400px){
+  .ts .container-main{
+    min-width: 100% !important;
+    height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+.ts .tenzies-holder{
+  width: 320px;
+  max-width:100%;
+  min-height: 320px;
+  padding: 33.28px 34.56px 33.92px 34.56px;
+  gap: 0px;
+  border-radius: 10px ;
+  opacity: 0px;
+  background: #F5F5F5;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+
+}
+.ts .die{
+  width: 35.84px;
+  height: 35.84px;
+  gap: 0px;
+  opacity: 0px;
+  background: #FFFFFF;
+  box-shadow: 0px 2px 2px 0px #00000026;
+  font-family: Karla;
+  font-size: 20.59px;
+  font-weight: 700;
+  line-height: 24.07px;
+  text-align: center;
+  color: #2B283A;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-radius:3px;
+  cursor:pointer;
+}
+.ts .die.green{
+  background: #59E391;
+}
+.ts .die-container{
+  display:grid;
+  column-gap:20px;
+  row-gap:20px;
+  grid-template-columns: auto auto auto auto auto;
+}
+@media screen and (max-width:320px){
+  .ts .die-container{
+    column-gap:10px;
+    row-gap:10px;
+  }
+}
+.ts .roll-btn{
+  width: 92.16px;
+  height: 35.84px;
+  gap: 0px;
+  border-radius: 3.81px ;
+  opacity: 0px;
+  background: #5035FF;
+  font-family: Karla;
+  font-size: 16.38px;
+  font-weight: 700;
+  line-height: 19.15px;
+  text-align: center;
+  color:#FFFFFF;
+  margin-top:30px;
+  border:none;
+  outline:none;
+  cursor:pointer;  
+}
+.ts .instruction{
+  font-family: Inter;
+  font-size: 13.11px;
+  font-weight: 400;
+  line-height: 15.86px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #4A4E74;
+  margin-bottom:20px;
+}
+.ts .heading{
+  font-family: Karla;
+  font-size: 25.6px;
+  font-weight: 700;
+  line-height: 29.93px;
+  letter-spacing: -0.03em;
+  text-align: center;
+  color: #2B283A;
+  margin-bottom:20px;
+}
